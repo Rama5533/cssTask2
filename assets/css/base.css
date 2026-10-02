@@ -1,0 +1,51 @@
+:root {
+    --a-color: #5B5B5B;
+    --section-color: #9DCCFF;
+    --teal: #3dbab5;
+    --navy: #1f2041;
+    --bg-blue: #eaf4ff;
+    --track: #d9d9d9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #fff;
+    font-family: poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5B5B5B;
+
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    max-width: 80%;
+}
+.container {
+    width: calc(100% - 240px);
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}

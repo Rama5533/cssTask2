@@ -1,0 +1,163 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 64px 0;
+    align-items: center;
+    justify-content: space-between;
+    border: 16px;
+}
+
+
+.header .logo img {
+    width: 114px;
+    height: 83px;
+}
+
+.list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.profile p {
+    font-weight: 18;
+    color: #000000;
+}
+
+.collictions {
+    padding: 46px 0;
+    background-color: var(--section-color);
+}
+
+.cards {
+    /* width: 200px; */
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(  100% - 10px);
+    margin: 40px auto;
+    gap:50px;
+    /* background-color: red; */
+}
+
+.card {
+    width:fit-content;
+    align-items: center;
+    background-color: #ffff;
+    border-radius: 20px;
+    /* width:calc((100%-100px)/2); */
+}
+/* .card img{
+    width:50px;
+    hight:50px;
+} */
+
+.card .profile {
+    padding: 10px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    padding-right:0;
+}
+
+.title a {
+    color: #49BBBD;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+.card img {
+    width:auto;
+    margin: 20px 21px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* .progress .reached_progress{
+width:75%;
+background-color:teal;
+} .card span{
+    background-color:#49BBBD;
+}  */
+
+
+footer {
+    align-items: center;
+    justify-content: center;
+background-color: #252641;}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .container {
+        width: calc(100% - 40px);
+    }
+
+    .header {
+        padding: 32px 0;
+    }
+
+    .row {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .header .logo img {
+        width: 90px;
+        height: auto;
+    }
+
+    .list {
+        width: 100%;
+    }
+
+    .list ul {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .profile {
+        gap: 8px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: calc(100% - 80px);
+        margin: auto;
+    }
+
+    .header {
+        padding: 48px 0;
+    }
+
+    .list ul {
+        gap: 40px;
+    }
+
+    .profile {
+        gap: 10px;
+    }
+}
